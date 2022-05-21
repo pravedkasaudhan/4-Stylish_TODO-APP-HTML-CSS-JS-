@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Tasks</title>
+    <link rel="stylesheet" href="todostyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tourney:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="welcome">Good Morning</h1>
+    <div id="todo">
+        <div id="input">
+            <h2 class="welcome">Add Task of the Day</h2>
+            <div id="box">
+                <textarea name="" class="entry" id="desc" cols="30" rows="10" placeholder="ENTER THE TASK"></textarea>
+                <button id="btn">Click to Add</button>
+            </div>
+        </div>
+        <div id="display">
+            <h2 class="welcome">Tasks to Accomplish Today</h2>
+            <button id="reset" onclick="reset()">Clear ALL</button>
+            <div id="cards">
+
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>
